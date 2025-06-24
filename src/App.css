@@ -1,0 +1,93 @@
+body{
+  margin:0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.nav-conteiner{
+  width: 100%;
+  height: 20%;
+  
+}
+
+
+
+.logo-img{
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  padding-left: 2px;
+}
+
+
+
+.conteiner{  
+  height: 500px;
+  width:100%;
+  background-image: url(./assets/img/img-header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 20%;
+  }
+
+
+.title-text{
+  color: beige;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.sub-text{
+  color: beige;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+
+}
+
+.sect-conteiner{
+  width: 100%;
+  background-color: #837B4D;
+  height: 400px;
+  justify-content: center;
+  text-align: center;
+  padding-top: 20%;
+}
+
+.btn-section{
+  border-color: beige;
+  background-color: #A69686;
+}
+
+.btn-section:hover{
+  box-shadow:none;
+}
+
+.sect-img{
+  width: 100%;
+  background-color: #7c6853;
+  height: 400px;
+  justify-content: center;
+  text-align: center;
+  padding-top: 10%;
+}
+
+.description-text{
+  color: beige;
+  font-family: "Poppins", sans-serif;
+  font-weight: 50;
+  font-style: normal;
+  font-size:small;
+}
+
+.sect-icon{
+  padding-top: 5%;
+}
+
